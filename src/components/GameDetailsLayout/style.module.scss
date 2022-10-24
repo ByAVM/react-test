@@ -1,0 +1,11 @@
+.gameDetails {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.gameDetailsLayout {
+    padding: 8px;
+    height: calc(100vh - 50px);
+}

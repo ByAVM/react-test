@@ -1,0 +1,21 @@
+.card {
+    display: block;
+    text-decoration: none;
+
+    &Image {
+        width: 300px;
+    }
+
+    &Title {
+        transition: color 0.3s ease;
+        font-weight: 400;
+        color: currentColor;
+        margin-top: 8px;
+    }
+
+    &:hover {
+        .cardTitle {
+            color: var(--primary)
+        }
+    }
+}
